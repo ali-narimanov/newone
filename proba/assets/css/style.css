@@ -1,0 +1,80 @@
+.ali1 {
+    position: absolute;
+width: 112px;
+height: 66px;
+left: 121px;
+top: 34px;
+}
+.ali2 {
+    display: flex;
+}
+.ali1i{
+    position: absolute;
+    height: 21px;
+    left: 121px;
+    top: 184px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: ;
+font-size: 20px;
+line-height: 100%;
+
+}
+.ali2i {
+    position: absolute;
+width: 130px;
+height: 32px;
+left: 338px;
+top: 187px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+}
+.ali3i  {
+    position: absolute;
+width: 130px;
+height: 32px;
+left: 500px;
+top: 187px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+}
+.alih1 {
+    position: absolute;
+width: 628px;
+height: 190px;
+left: 122px;
+top: 248px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 101.38%;
+}
+.aliimg{
+    position: absolute;
+width: 304px;
+height: 356px;
+left: 950px;
+top: 223px;
+}
+.divali2 {
+    display: flex;
+    justify-content: space-between;
+}
+.alicont {
+    position: absolute;
+width: 490.02px;
+height: 198.64px;
+left: 403px;
+top: 668px;
+
+}
