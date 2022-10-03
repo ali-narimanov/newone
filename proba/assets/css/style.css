@@ -1,31 +1,35 @@
+.alimain {
+    height: 130px;
+    
+}
+
 .ali1 {
-    position: absolute;
+    padding-left: 171px;
+
 width: 112px;
 height: 66px;
-left: 121px;
-top: 34px;
+
 }
 .ali2 {
     display: flex;
 }
 .ali1i{
-    position: absolute;
-    height: 21px;
-    left: 121px;
-    top: 184px;
+    padding-left: 171px;
+    padding-top: 100px;
+    display: inline-block;
     font-family: 'Roboto';
+    width: 150px;
 font-style: normal;
 font-weight: ;
 font-size: 20px;
 line-height: 100%;
 
+
 }
 .ali2i {
-    position: absolute;
-width: 130px;
-height: 32px;
-left: 338px;
-top: 187px;
+    padding-left: 50px;
+   display: inline-block;
+width: 100px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -34,11 +38,11 @@ font-size: 20px;
 line-height: 115%;
 }
 .ali3i  {
-    position: absolute;
-width: 130px;
-height: 32px;
-left: 500px;
-top: 187px;
+    padding-left: 100px;
+display: inline-block;
+      width: 130px;
+     height: 32px;
+
 
 font-family: 'Roboto';
 font-style: normal;
@@ -47,34 +51,213 @@ font-size: 20px;
 line-height: 115%;
 }
 .alih1 {
-    position: absolute;
-width: 628px;
-height: 190px;
-left: 122px;
-top: 248px;
+    display: inline-block;
+   padding-left: 172px;
+ padding-top: -50px;
+width: 650px;
+height: 100px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
-font-size: 80px;
+font-size: 90px;
 line-height: 101.38%;
 }
-.aliimg{
+.alip1 {
+    display: inline-block;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+width: 414px;
+height: 62px;
+padding-right: 380px;
+padding-left: 171px;
+}
+.aliimg {
     position: absolute;
 width: 304px;
 height: 356px;
-left: 950px;
+left: 1000px;
 top: 223px;
 }
 .divali2 {
-    display: flex;
+    height: 300px;
     justify-content: space-between;
-}
-.alicont {
-    position: absolute;
-width: 490.02px;
-height: 198.64px;
-left: 403px;
-top: 668px;
+    width: 400px;
 
+}
+.ellipse {
+    display: inline-block;
+    padding-left: 1020px;
+    padding-top: 10px;
+}
+
+.alicont {
+display: inline-block;
+padding-left: 550px;
+padding-top: 170px;
+}
+
+@media screen and (min-width:992px) and (max-width:1279px){
+    .ali1 {
+        padding-left: 70.08px;
+        width: 64.87px;
+        height: 38.23px;
+        
+    }
+    .ali1i {
+        width: 76px;
+height: 18.53px;
+padding-left: 70.08px;
+padding-top: 118.14px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 115%;
+    }
+    .ali2i {
+        padding-left: 15px;
+        width: 70px;
+        height: 18.53px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 115%;
+    }
+    .ali3i {
+        padding-left: 20px;
+        width: 70px;
+        height: 18.53px;   
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 115%;
+    }
+    .alih1 {
+        width: 363.72px;
+        height: 110.04px;
+        padding-left: 70.66px;
+        padding-top: 40px;
+        font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 101.38%;
+    }
+    .alip1 {
+        width: 264px;
+        height: 36px;
+        padding-left: 71px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+    }
+    .aliimg {
+        position: absolute;
+        width: 176.07px;
+        height: 206.18px;
+        left: 515.46px;
+        top: 138.99px; 
+        z-index: -1;
+    }
+
+     .alicont {
+        width: 90px;
+        height: 80px;
+        padding-left: 120px;
+        padding-top: 20px;
+     }
+     .ellipse {
+       padding-left: 530px;
+       
+     }
+        
+}
+
+@media screen and (min-width:320px) and (max-width:991px) {
+
+    .ali1 {
+        width: 52px;
+        height: 31px;
+        padding-left: 35px;
+        padding-top: 36px;
+    }
+    .ali1i {
+        width: 60px;
+        height: 15px;
+        padding-left: 49px;
+        padding-top: 111px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 115%;
+
+    }
+    .ali2i {
+        width: 60px;
+        height: 15px;
+        padding-top:111px ;
+        padding-left: 49px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 115%;
+    }
+    .ali3i {
+        width: 60px;
+        height: 15px;
+        padding-top:111px ;
+        padding-left: 49px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 115%;
+    }
+    .alih1 {
+        padding-top: 50px;
+        padding-left: 35px;
+        width: 292.63px;
+height: 88.53px;
+        font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 101.38%;
+    }
+    .alip1 {
+        width: 212px;
+        height: 29px;
+        padding-left: 35px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 150%;
+    }
+    
+    .aliimg {
+        position: absolute;
+width: 141.68px;
+height: 175.1px;
+left: 300px;
+top: 254px;
+
+    }
+    .alicont {
+        padding-top: 10px;
+        padding-left: 40px;
+
+
+
+    }
 }
